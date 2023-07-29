@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    background-image: url("../Images/IMG-20230116-WA0007.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+}
+
+a, .navbar .toggle_btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a:hover,
+.navbar .toggle_btn:hover {
+    color: rgb(124, 8, 8);
+}
+
+.navbar .toggle_btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* HEADER STYLING */
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+}
+
+.navbar .logo a img {
+    width: 250px; height: auto; /*  width for the image */
+}
+
+.navbar .links {
+    display: flex;
+    gap: 1.5rem;
+}
